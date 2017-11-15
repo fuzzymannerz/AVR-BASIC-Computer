@@ -1,13 +1,16 @@
 # AVR BASIC Computer v0.1
 An updated version of https://hackaday.io/project/3537-avr-basic-computer-v01 to work with **Arduino IDE >=1.8**
 
+*Includes libraries: ps2uartKeyboard, SpiEEPROM, TVout, TVoutfonts*
 
 ----------
 ## Usage ##
 [Download the zip file of this repo](https://github.com/fuzzymannerz/AVR-BASIC-Computer/archive/master.zip) and unzip into your Arduino directory.
 The zip file contains a bootloader for the ATMega 1284P, the Arduino IDE sketch and the relevant libraries.
 
-Open the "*AVR_BASIC_Computer_v0.1/AVR_BASIC_Computer_v0.1.ino*" sketch file and then select "*ATMega 1284*" from the board menu (*Tools -> Board*). Then select the "*USBasp*" from the programmer menu (*Tools -> Programmer*) or alternatively "*Arduino as ISP*" if an Arduino is being used.
+Open the Arduino IDE and go to *File -> Preferences* and enter `https://mcudude.github.io/MightyCore/package_MCUdude_MightyCore_index.json` as an *Additional Board Manager URL* (you may need to use a comma to seperate them if you already have a URL there) you can then add "*MightyCore*" from the *Boards Manager* window (*Tools -> Boards -> Boards Manager*).
+
+Now you can open the "*AVR_BASIC_Computer_v0.1/AVR_BASIC_Computer_v0.1.ino*" sketch file and then select "*ATMega 1284*" from the board menu (*Tools -> Board*). Then select the "*USBasp*" from the programmer menu (*Tools -> Programmer*) or alternatively "*Arduino as ISP*" if an Arduino is being used.
 
 **Schematic and all other setup instructions are available at:**
 **https://hackaday.io/project/3537-avr-basic-computer-v01**
@@ -21,8 +24,6 @@ This project uses code from the following places:
  - https://github.com/BleuLlama/TinyBasicPlus
  - https://hackaday.io/project/3537-avr-basic-computer-v01
  - https://github.com/fakufaku/mighty-1284p
- - 
-
 
 ----------
 
