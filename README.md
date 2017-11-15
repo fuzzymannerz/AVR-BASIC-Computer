@@ -5,7 +5,7 @@ An updated version of https://hackaday.io/project/3537-avr-basic-computer-v01 to
 
 ----------
 ## Usage ##
-[Download the zip file of this repo](https://github.com/fuzzymannerz/AVR-BASIC-Computer/archive/master.zip) and unzip into your Arduino directory.
+[Download the zip file of this repo](https://github.com/fuzzymannerz/AVR-BASIC-Computer/archive/master.zip) and unzip the files inside "*AVR-BASIC-Computer-master*" (*the one that contains this README.md*) into your Arduino directory.
 The zip file contains a bootloader for the ATMega 1284P, the Arduino IDE sketch and the relevant libraries.
 
 Open the Arduino IDE and go to *File -> Preferences* and enter `https://mcudude.github.io/MightyCore/package_MCUdude_MightyCore_index.json` as an *Additional Board Manager URL* (you may need to use a comma to seperate them if you already have a URL there) you can then add "*MightyCore*" from the *Boards Manager* window (*Tools -> Boards -> Boards Manager*).
